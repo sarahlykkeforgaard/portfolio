@@ -51,6 +51,16 @@ margin-bottom: 0.25rem; }
   text-decoration: none;
 }
 
+.menu a:hover {
+  color: #423838;
+  font-weight: bolder;
+}
+
+.menu a.active {
+  color: #423838;
+  font-weight: bolder;
+}
+
 /* Buttons */
 .btn,
 button,
