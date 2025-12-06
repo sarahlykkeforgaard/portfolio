@@ -201,7 +201,7 @@ header {
   background-color: #d6ccc7;
 }
 
-/* Billedrække – mobil */
+/* Billedrække - mobil */
 .image-row {
   display: flex;
   flex-wrap: wrap;
@@ -246,7 +246,7 @@ header {
   padding: 6px 0;
 }
 
-/* Billedrække 2 – mobil */
+/* Billedrække 2 - mobil */
 .image-row2 {
   display: flex;
   flex-wrap: wrap;
@@ -267,6 +267,32 @@ header {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Billedrække 3 til kompetencesider - mobil */
+.image-row3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px 30px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.image-container3 {
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.image-container3 img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -324,7 +350,7 @@ footer a:hover {
   font-weight: bolder;
 }
 
-/*  TABLET – MIN 751PX    */
+/*  TABLET - MIN 751PX    */
 
 @media (min-width: 751px) {
 
@@ -351,7 +377,7 @@ footer a:hover {
         font-size: 14px;
     }
 
-    /* Tekstblokke – samme luft som mobil, men lidt bredere */
+    /* Tekstblokke - samme luft som mobil, men lidt bredere */
     .tekstblok {
         padding: 0 50px;
         text-align: left;
@@ -379,7 +405,7 @@ footer a:hover {
         text-align: left;
     }
 
-    /* Image row – stadig 2 kolonner, med luft */
+    /* Image row - stadig 2 kolonner, med luft */
     .image-row {
         display: flex;
         flex-wrap: wrap;
@@ -415,7 +441,7 @@ footer a:hover {
         padding: 7px 0;
     }
 
-    /* Image row 2 – små ikoner med luft */
+    /* Image row 2 - små ikoner med luft */
     .image-row2 {
         display: flex;
         flex-wrap: wrap;
@@ -438,7 +464,31 @@ footer a:hover {
         object-fit: cover;
     }
 
-    /* Form – samme indryk som tekstblokke */
+/* Image row 3 til kompetencesider - mobil */
+.image-row3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 25px 40px; /* matcher tekstblokke */
+        box-sizing: border-box;
+}
+
+.image-container3 {
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.image-container3 img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  object-fit: cover;
+}
+
+    /* Form - samme indryk som tekstblokke */
     form {
         padding: 15px 50px;
         margin: 20px 0;
@@ -469,7 +519,7 @@ footer a:hover {
 }
 
 
-/*  DESKTOP – MIN 1025PX  */
+/*  DESKTOP - MIN 1025PX  */
 
 @media (min-width: 1025px) {
 
@@ -521,7 +571,7 @@ footer a:hover {
         text-align: left;
     }
 
-    /* Image row – 3 kolonner, fast */
+    /* Image row - 3 kolonner, fast */
     .image-row {
         display: flex;
         flex-wrap: wrap;
@@ -557,7 +607,7 @@ footer a:hover {
         padding: 8px 0;
     }
 
-    /* Image row 2 – små ikoner */
+    /* Image row 2 - små ikoner */
     .image-row2 {
         display: flex;
         flex-wrap: wrap;
@@ -579,6 +629,30 @@ footer a:hover {
         border-radius: 10px;
         object-fit: cover;
     }
+
+/* Image row 3 til kompetencesider */
+.image-row3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 30px 80px; /* matcher tekstblokke */
+        box-sizing: border-box;
+}
+
+.image-container3 {
+  flex: 0 0 calc(25% - 30px); /* fast 4 kolonner */
+  max-width: calc(25% - 30px);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.image-container3 img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  object-fit: cover;
+}
 
 /* Form */
 form {
