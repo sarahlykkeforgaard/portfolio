@@ -13,6 +13,12 @@ body {
   margin-bottom: 0rem;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem; /* eller mindre */
+}
+
+
 /* Headings */
 h1,
 h2,
@@ -109,7 +115,7 @@ header {
 .hero {
   position: relative;
   height: 70vh;
-  background: url("../portfolio/billeder/headerbilleder/kaffe.jpg") center/cover no-repeat;
+  background: url("indsæt billede") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,7 +126,7 @@ header {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.30);
   z-index: 1;
 }
 
