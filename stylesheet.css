@@ -575,6 +575,27 @@ footer a:hover {
   }
 
 
+/* Layout til kompetencer - branding */
+    .branding-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        margin-bottom: 40px;
+        padding: 0 50px; /* samme indryk som tekstblokke */
+        box-sizing: border-box;
+    }
+
+    .branding-section img {
+        width: 650px;
+        border-radius: 10px;
+    }
+
+    .branding-section .text {
+        flex: 1;
+        text-align: left;
+    }
+
+
     /* Form - samme indryk som tekstblokke */
     form {
         padding: 15px 50px;
