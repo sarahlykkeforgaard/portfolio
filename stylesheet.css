@@ -187,7 +187,7 @@ header {
   width: 100%;
   max-width: 300px;
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 40px auto 0;
 }
 
 .kontakt-knap a {
@@ -404,7 +404,6 @@ footer a:hover {
     .om-mig-section img {
         width: 250px;
         border-radius: 10px;
-        margin: 0; /* venstrestillet */
     }
 
     .om-mig-section .text {
