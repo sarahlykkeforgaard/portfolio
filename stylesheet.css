@@ -199,7 +199,7 @@ header {
   color: #423838;
   border-radius: 10px;
   text-decoration: none;
-  margin-top: 15px;    /* lidt luft fra teksten */
+  margin-top: 5px;    /* lidt luft fra teksten */
   text-align: center;  /* centrerer teksten i knappen */
   transition: background-color 0.3s ease;
 }
@@ -303,6 +303,41 @@ header {
   object-fit: cover;
 }
 
+
+/* Layout til kompetencer - storytelling */
+.kompetence-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px 30px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.kompetence-container {
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.kompetence-container img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  object-fit: cover;
+}
+
+.kompetence-tekstblok {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+
 /* Form */
 form {
   padding: 15px 40px;
@@ -356,6 +391,8 @@ footer a {
 footer a:hover {
   font-weight: bolder;
 }
+
+
 
 /*  TABLET - MIN 751PX    */
 
@@ -494,6 +531,26 @@ footer a:hover {
   object-fit: cover;
 }
 
+
+/* Layout til kompetencer - storytelling */
+  .kompetence-row {
+    gap: 20px;
+    padding: 25px 40px;
+  }
+
+  .kompetence-container {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .kompetence-tekstblok {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+
     /* Form - samme indryk som tekstblokke */
     form {
         padding: 15px 50px;
@@ -523,6 +580,7 @@ footer a:hover {
         min-width: 200px;
     }
 }
+
 
 
 /*  DESKTOP - MIN 1025PX  */
@@ -659,6 +717,33 @@ footer a:hover {
   height: auto;
   object-fit: cover;
 }
+
+
+/* Layout til kompetencer - storytelling */
+  .kompetence-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 80px;
+    box-sizing: border-box;
+  }
+
+  .kompetence-container {
+    flex: 0 0 calc(25% - 30px); /* 2 billeder = samme bredde som 4 kolonner */
+    max-width: calc(25% - 30px);
+    box-sizing: border-box;
+  }
+
+  .kompetence-tekstblok {
+    flex: 0 0 calc(50% - 30px); /* tekst fylder halvdelen */
+    max-width: calc(50% - 30px);
+    text-align: left;
+    align-self: center; /* centrerer vertikalt med billederne */
+    box-sizing: border-box;
+  }
+
+
 
 /* Form */
 form {
