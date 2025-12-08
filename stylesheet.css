@@ -768,8 +768,9 @@ footer a:hover {
 /* Layout til kompetencer - storytelling */
   .kompetence-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: row;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     padding: 30px 80px;
     box-sizing: border-box;
