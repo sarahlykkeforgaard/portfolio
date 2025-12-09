@@ -343,7 +343,7 @@ header {
 }
 
 
-/* Layout til kompetencer - branding */
+/* Layout til kompetencer - branding og visuel kommunikation */
 .branding-section {
   display: flex;
   flex-direction: column;
@@ -575,7 +575,7 @@ footer a:hover {
   }
 
 
-/* Layout til kompetencer - branding */
+/* Layout til kompetencer - branding og visuel kommunikation */
     .branding-section {
         flex-direction: column;
         align-items: flex-start;
@@ -790,7 +790,7 @@ footer a:hover {
     box-sizing: border-box;
   }
 
- /* Layout til kompetencer - branding */
+ /* Layout til kompetencer - branding og visuel kommunikation */
 .branding-section {
   display: flex;
   flex-direction: row;
