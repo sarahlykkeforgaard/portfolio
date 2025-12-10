@@ -40,15 +40,40 @@ margin-bottom: 0.25rem; }
 h3 { font-size: 1rem;
 margin-bottom: 0.25rem; } 
 
+
+/* Header */
+header {
+  background-color: #fafafa;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Container styrer baseline */
+.header-container {
+  display: flex;
+  flex-direction: column;   /* mobil først */
+  align-items: center;
+  padding: 0 20px;          /* baseline indryk */
+  box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+  width: 180px;
+  margin: 15px auto;           /* optisk luft */
+  display: block;
+}
+
 /* Menu */
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;   /* mobil */
   gap: 15px;
-  align-items: center;
   list-style: none;
-  margin: 0;
-  padding: 10px 0;
+  margin: 15px 0;
+  padding: 0;               /* container styrer indryk */
+  align-items: center;
 }
 
 .menu a {
@@ -58,15 +83,11 @@ margin-bottom: 0.25rem; }
   text-decoration: none;
 }
 
-.menu a:hover {
-  color: #423838;
+.menu a:hover,
+.menu a.active {
   font-weight: bolder;
 }
 
-.menu a.active {
-  color: #423838;
-  font-weight: bolder;
-}
 
 /* Buttons */
 .btn,
@@ -95,22 +116,7 @@ form button:hover,
   background-color: #d6ccc7;
 }
 
-/* Header */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background-color: #fafafa;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 20px;
-}
 
-.logo {
-  width: 180px;
-}
 
 /* Hero */
 .hero {
