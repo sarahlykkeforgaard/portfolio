@@ -121,7 +121,7 @@ form button:hover,
 /* Hero */
 .hero {
   position: relative;
-  height: 70vh;
+  height: 75vh;
   background: url("indsæt billede") center/cover no-repeat;
   display: flex;
   justify-content: center;
