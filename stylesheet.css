@@ -794,23 +794,25 @@ footer a:hover {
 .branding-section {
   display: flex;
   flex-direction: row;
-  justify-content: center;   /* centrerer indholdet vandret */
+  justify-content: flex-start;   /* centrerer indholdet vandret */
   align-items: center;       /* centrerer lodret i forhold til hinanden */
   gap: 30px;
-  max-width: 1200px;
   padding: 0 95px;
   margin: 0 auto 40px;       /* centrerer hele sektionen på siden */
   box-sizing: border-box;
+    max-width: 100%;
 }
 
 .branding-section img {
-  max-width: 600px;
+  flex: 0 0 50%;
+  max-width: 50%;
   margin-top: 30px;
   border-radius: 10px;
 }
 
 .branding-section .tekstblok-branding {
-  flex: 1;
+  flex: 0 0 50%;
+  max-width: 50%;
   text-align: left;
 }
 
