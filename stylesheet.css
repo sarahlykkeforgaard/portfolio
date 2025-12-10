@@ -435,27 +435,28 @@ footer a:hover {
 @media (min-width: 751px) {
 
     /* Header */
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 25px;
-    }
+  .header-container {
+    flex-direction: row;              /* logo og menu ved siden af hinanden */
+    justify-content: space-between;   /* logo til venstre, menu til højre */
+    align-items: center;              /* vertikal centrering */
+    padding: 20px 50px 20px 30px;                  /* ens indryk som dine tekstblokke */
+  }
 
-    .logo {
-        width: 220px;
-        padding: 10px 5px;
-    }
+  .logo {
+    width: 220px;                     /* lidt større logo på tablet */
+    margin: 0;                        /* fjern auto margin */
+  }
 
-    .menu {
-        flex-direction: row;
-        gap: 40px;
-        padding: 10px 25px;
-    }
+  .menu {
+    flex-direction: row;              /* menu links på række */
+    gap: 40px;                        /* afstand mellem links */
+    margin: 0;                        /* fjern margin under menu */
+    align-items: center;
+  }
 
-    .menu a {
-        font-size: 14px;
-    }
+  .menu a {
+    font-size: 14px;                  /* kan evt. øges lidt */
+  }
 
     /* Tekstblokke - samme luft som mobil, men lidt bredere */
     .tekstblok {
