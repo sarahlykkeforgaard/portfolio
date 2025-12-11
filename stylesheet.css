@@ -318,6 +318,7 @@ form button:hover,
 /* Layout til kompetencer - storytelling og copywriting */
 .kompetence-row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
@@ -640,8 +641,9 @@ footer a:hover {
     }
 
     .footer-section {
-        flex: 1 0 1;
+        flex: 1 1 0;
         min-width: 200px;
+        max-width: 300px; /* begrænser hvor brede de må blive */
     }
 }
 
@@ -793,7 +795,7 @@ footer a:hover {
 /* Layout til kompetencer - storytelling og copywriting */
   .kompetence-row {
     display: flex;
-    flex-wrap: row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 30px;
