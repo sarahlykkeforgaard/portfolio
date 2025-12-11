@@ -392,7 +392,7 @@ form textarea {
   margin-bottom: 15px;
   border: 1px solid #423838;
   border-radius: 6px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Teacher', sans-serif;
   box-sizing: border-box;
 }
 
@@ -400,6 +400,7 @@ form button {
   width: 100%;
   font-size: 15px;
   padding: 12px;
+  font-family: 'Cormorant Garamond', serif;
   border: none;
   cursor: pointer;
   box-sizing: border-box;
