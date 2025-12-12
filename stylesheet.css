@@ -101,7 +101,7 @@ form button,
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
   color: #423838;
-  background-color: #ebe3de;
+  background-color: #D8CBBF;
   border-radius: 10px;
   transition: background-color 0.3s ease;
   text-decoration: none;
@@ -115,7 +115,7 @@ button:hover,
 .learn-more-btn:hover,
 form button:hover,
 .kontakt-knap a:hover {
-  background-color: #d6ccc7;
+  background-color: #EBE3DE;
 }
 
 
@@ -123,8 +123,8 @@ form button:hover,
 /* HERO BILLEDE */
 .hero {
   position: relative;
-  height: 70vh;
-  background: url("indsæt billede") center/cover no-repeat;
+  height: 75vh;
+  background: url("../portfolio/billeder/headerbilleder/headergrafik.png") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +135,7 @@ form button:hover,
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.30);
+  background: rgba(0,0,0,0);
   z-index: 1;
 }
 
