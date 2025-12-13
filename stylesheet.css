@@ -94,8 +94,25 @@ header {
 /* KNAPPER / BOTTONS */
 .btn,
 button,
+.learn-more-btn {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color: #423838;
+  background-color: #EBE3DE;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover,
+button:hover,
+.learn-more-btn:hover {
+  background-color: #D8CBBF;
+}
+
 .hero-btn,
-.learn-more-btn,
 form button,
 .kontakt-knap a {
   font-family: 'Cormorant Garamond', serif;
@@ -109,15 +126,11 @@ form button,
   text-align: center;
 }
 
-.btn:hover,
-button:hover,
 .hero-btn:hover,
-.learn-more-btn:hover,
 form button:hover,
 .kontakt-knap a:hover {
   background-color: #EBE3DE;
 }
-
 
 
 /* HERO BILLEDE */
@@ -208,7 +221,7 @@ form button:hover,
   width: 140px;                             /* samme bredde som learn-more */
   font-size: 14px;                          /* samme fontstørrelse */
   padding: 6px 0;                           /* samme højde */
-  background-color: #ebe3de;
+  background-color: #D8CBBF;
   color: #423838;
   border-radius: 10px;
   text-decoration: none;
@@ -218,7 +231,7 @@ form button:hover,
 }
 
 .kontakt-knap a:hover {
-  background-color: #d6ccc7;
+  background-color: #EBE3DE;
 }
 
 /* BILLEDRÆKKE - FORSIDE OG KOMPETENCER */
