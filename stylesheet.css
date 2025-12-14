@@ -303,7 +303,7 @@ form button:hover,
   object-fit: cover;
 }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING */
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
 .image-row3 {
   display: flex;
   flex-wrap: wrap;
@@ -330,7 +330,7 @@ form button:hover,
 }
 
 
-/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING */
+/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING OG BRANDING */
 .kompetence-row {
   display: flex;
   flex-direction: row;
@@ -565,7 +565,7 @@ footer a:hover {
     object-fit: cover;
 }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING*/
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
 .image-row3 {
     display: flex;
     flex-wrap: wrap;
@@ -590,7 +590,7 @@ footer a:hover {
 }
 
 
-/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING */
+/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING OG BRANDING */
 .kompetence-row {
     gap: 20px;
     padding: 25px 40px;
@@ -792,7 +792,7 @@ footer {
     object-fit: cover;
   }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING */
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
 .image-row3 {
     display: flex;
     flex-wrap: wrap;
