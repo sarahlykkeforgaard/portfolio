@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  max-width: 800px;
+  max-width: 720px;
   margin-top: 0;
   margin-bottom: 0.5rem; 
 }
@@ -303,7 +303,7 @@ form button:hover,
   object-fit: cover;
 }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING */
 .image-row3 {
   display: flex;
   flex-wrap: wrap;
@@ -565,7 +565,7 @@ footer a:hover {
     object-fit: cover;
 }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING*/
 .image-row3 {
     display: flex;
     flex-wrap: wrap;
@@ -792,7 +792,7 @@ footer {
     object-fit: cover;
   }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING */
 .image-row3 {
     display: flex;
     flex-wrap: wrap;
@@ -817,7 +817,7 @@ footer {
   }
 
 
-/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING */
+/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING OG BRANDING */
 .kompetence-row {
     display: flex;
     flex-direction: row;
@@ -856,8 +856,8 @@ footer {
   }
 
 .branding-section img {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
     margin-top: 30px;
     border-radius: 10px;
   }
