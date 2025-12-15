@@ -102,8 +102,10 @@ button,
   border-radius: 10px;
   transition: background-color 0.3s ease;
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  width: 100%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .btn:hover,
@@ -271,12 +273,14 @@ form button:hover,
 }
 
 .learn-more-btn {
-  position: absolute;
-  bottom: 23px;
-  left: 20px;
-  width: 140px;
-  font-size: 14px;
-  padding: 6px 0;
+  position: static;
+  display: block;
+  width: 100%;            /* samme bredde som billedet/containeren */
+  margin-top: 10px;       /* lidt luft under billedet */
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 0;
+  box-sizing: border-box;
 }
 
 /* BILLEDRÆKKE 2 - SMÅ IKONER PÅ KOMPETENCESIDE */
@@ -558,11 +562,14 @@ footer a:hover {
 }
 
 .learn-more-btn {
+    position: absolute;      /* overlay effekt */
     bottom: 25px;
     left: 25px;
     width: 150px;
     font-size: 15px;
     padding: 7px 0;
+    margin-top: 0;
+    display: inline-block;
 }
 
 /* BILLEDRÆKKE 2 - SMÅ IKONER PÅ KOMPETENCESIDE */
