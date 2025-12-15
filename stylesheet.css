@@ -211,9 +211,9 @@ form button:hover,
 
 .om-mig-section img {
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
   border-radius: 10px;
-  margin: 40px auto 0;
+  margin: 30px auto 0;
 }
 
 .kontakt-knap a {
@@ -496,11 +496,6 @@ footer a:hover {
     box-sizing: border-box;
 }
 
-.om-mig-section img {
-    width: 250px;
-    border-radius: 10px;
-}
-
 .om-mig-section .text {
     flex: 1;
     text-align: left;
@@ -722,12 +717,6 @@ footer {
     box-sizing: border-box;
   }
 
-.om-mig-section img {
-    width: 300px;
-    margin-left: 95px;
-    margin: 30px 0 0 0;
-  }
-
 .om-mig-section .text {
     flex: 1;
     text-align: left;
@@ -792,7 +781,7 @@ footer {
     object-fit: cover;
   }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING */
 .image-row3 {
     display: flex;
     flex-wrap: wrap;
@@ -848,7 +837,7 @@ footer {
     flex-direction: row;
     justify-content: flex-start;   /* centrerer indholdet vandret */
     align-items: center;           /* centrerer lodret i forhold til hinanden */
-    gap: 30px;
+    gap: 50px;
     padding: 0 95px;
     margin: 0 auto 40px;           /* centrerer hele sektionen på siden */
     box-sizing: border-box;
