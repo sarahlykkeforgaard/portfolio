@@ -334,7 +334,7 @@ form button:hover,
 }
 
 
-/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING OG BRANDING */
+/* LAYOUT TIL KOMPETENCER - COPYWRITING OG BRANDING */
 .kompetence-row {
   display: flex;
   flex-direction: row;
@@ -370,7 +370,7 @@ form button:hover,
 }
 
 
-/* LAYOUT TIL KOMPETENCER - BRANDING OG VISUEL KOMMUNIKATION */
+/* LAYOUT TIL KOMPETENCER - BRANDING, STORYTELLING OG VISUEL KOMMUNIKATION */
 .branding-section {
   display: flex;
   flex-direction: column;
@@ -620,7 +620,7 @@ footer a:hover {
 }
 
 
-/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING OG BRANDING */
+/* LAYOUT TIL KOMPETENCER - COPYWRITING OG BRANDING */
 .kompetence-row {
     gap: 20px;
     padding: 25px 40px;
@@ -639,7 +639,7 @@ footer a:hover {
 }
 
 
-/* LAYOUT TIL KOMPETENCER - BRANDING OG VISUEL KOMMUNIKATION */
+/* LAYOUT TIL KOMPETENCER - BRANDING, STORYTELLING OG VISUEL KOMMUNIKATION */
 .branding-section {
     display: flex;
     flex-direction: column;
@@ -827,7 +827,7 @@ footer {
     object-fit: cover;
   }
 
-/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER OG BRANDING */
+/* BILLEDRÆKKE 3 - CONTENT OG PRODUKTBILLEDER */
 .image-row3 {
     display: flex;
     flex-wrap: wrap;
@@ -852,7 +852,7 @@ footer {
   }
 
 
-/* LAYOUT TIL KOMPETENCER - STORYTELLING OG COPYWRITING OG BRANDING */
+/* LAYOUT TIL KOMPETENCER - COPYWRITING OG BRANDING */
 .kompetence-row {
     display: flex;
     flex-direction: row;
@@ -877,11 +877,11 @@ footer {
     box-sizing: border-box;
   }
 
-/* LAYOUT TIL KOMPETENCER - BRANDING OG VISUEL KOMMUNIKATION */
+/* LAYOUT TIL KOMPETENCER - BRANDING, STORYTELLING OG VISUEL KOMMUNIKATION */
 .branding-section {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;   /* centrerer indholdet vandret */
+    justify-content: flex-start;
     align-items: center;           /* centrerer lodret i forhold til hinanden */
     gap: 50px;
     padding: 0 95px;
@@ -909,7 +909,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  padding: 30px 80px;   /* matcher tekstblokke */
+  padding: 30px 80px;           /* matcher tekstblokke */
   box-sizing: border-box;
 }
 
@@ -924,7 +924,7 @@ footer {
   width: 100%;
   border-radius: 10px;
   height: auto;
-  object-fit: cover;   /* gør at videoen beskæres pænt */
+  object-fit: cover;
 }
 
 
