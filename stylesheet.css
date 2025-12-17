@@ -21,14 +21,6 @@ p {
   margin-bottom: 0.5rem; 
 }
 
-/* LINKS TIL KONTAKTOPLYSNINGER */
-a[href^="tel"],
-a[href^="mailto"] {
-  color: inherit;
-  text-decoration: none;
-}
-
-
 /* OVERSKRIFTER */
 h1,
 h2,
